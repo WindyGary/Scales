@@ -15,7 +15,7 @@ void scale(int x, int y){
   fill((int)(Math.random()*100)+100, (int)(Math.random()*100)+100, (int)(Math.random()*100)+100);
   
 if (mousePressed){
-stroke((int)(Math.random()*200)+100,(int)(Math.random()*200)+100,(int)(Math.random()*200)+100);
+stroke((int)(Math.random()*200),(int)(Math.random()*200),(int)(Math.random()*200));
 
 } else{
   stroke(50,50,50);
