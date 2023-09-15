@@ -1,5 +1,6 @@
 void setup(){
   size(600,600);
+  noLoop();
 }
 void draw(){
   for (int y = 550; y >= -100; y -= 20){
