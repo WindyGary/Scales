@@ -1,5 +1,6 @@
 void setup(){
   size(600,600);
+  noLoop();
 }
 
 void draw(){
@@ -11,12 +12,6 @@ void draw(){
 }
 
 void scale(int x, int y){
-if (mousePressed){
-stroke((int)(Math.random()*200),(int)(Math.random()*200),(int)(Math.random()*200));
-} else {
-  stroke(50,50,50);
-  delay(1);
-}
 
 fill((int)(Math.random()*100)+100, (int)(Math.random()*100)+100, (int)(Math.random()*100)+100);
 
