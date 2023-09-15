@@ -1,7 +1,7 @@
 void setup(){
   size(600,600);
-  noLoop();
 }
+
 void draw(){
   for (int y = 550; y >= -100; y -= 20){
     for (int x = -100; x <= 550; x += 30){
@@ -10,18 +10,15 @@ void draw(){
  }
 }
 
-
-  
 void scale(int x, int y){
-  fill((int)(Math.random()*100)+100, (int)(Math.random()*100)+100, (int)(Math.random()*100)+100);
-  
 if (mousePressed){
 stroke((int)(Math.random()*200),(int)(Math.random()*200),(int)(Math.random()*200));
-
-} else{
+} else {
   stroke(50,50,50);
   delay(1);
 }
+
+fill((int)(Math.random()*100)+100, (int)(Math.random()*100)+100, (int)(Math.random()*100)+100);
 
 rect(50+x, 50+y, 50, 20, 10);
 arc(75+x, 60+y, 50, 40, 0, PI);
