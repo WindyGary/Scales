@@ -13,7 +13,7 @@ void draw(){
 void scale(int x, int y){
 
 if (mousePressed){
-stroke((int)(Math.random()*200),(int)(Math.random()*200),(int)(Math.random()*200));
+stroke((int)(Math.random()*200+100),(int)(Math.random()*200+100),(int)(Math.random()*200+100));
 } else {
   stroke(50,50,50);
 }
