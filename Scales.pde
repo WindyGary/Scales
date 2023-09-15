@@ -12,6 +12,12 @@ void draw(){
 
 void scale(int x, int y){
 
+if (mousePressed){
+stroke((int)(Math.random()*200),(int)(Math.random()*200),(int)(Math.random()*200));
+} else {
+  stroke(50,50,50);
+}
+
 fill((int)(Math.random()*100)+100, (int)(Math.random()*100)+100, (int)(Math.random()*100)+100);
 
 rect(50+x, 50+y, 50, 20, 10);
